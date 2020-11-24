@@ -43,14 +43,14 @@ jobs:
 
       - name: Coverage
         if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
-        uses: coverallsapp/github-action@v1
+        uses: coverallsapp/github-action@v1.1.2
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           path-to-lcov: ${{ github.workspace }}/coverage/lcov.info
 
       - name: Publish
         if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
-        uses: JS-DevTools/npm-publish@v1.1.2
+        uses: JS-DevTools/npm-publish@v1
         with:
           token: ${{ secrets.NPM_TOKEN }}
           package: ./pkg/package.json
