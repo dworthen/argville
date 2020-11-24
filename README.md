@@ -1,3 +1,5 @@
+[![TypeScript](https://img.shields.io/badge/%3C%2F%3E-TypeScript-%230074c1.svg?style=for-the-badge)](http://www.typescriptlang.org/) [![NPM](https://img.shields.io/npm/v/argville?style=for-the-badge)](https://www.npmjs.com/package/argville) [![Build Status](https://img.shields.io/github/workflow/status/dworthen/argville/CI?style=for-the-badge)](https://github.com/dworthen/argville/actions?query=workflow%3ACI) [![Test Coverage](https://img.shields.io/coveralls/github/dworthen/argville?style=for-the-badge)](https://coveralls.io/github/dworthen/argville)
+
 # Argville
 
 Another CLI arg parser.
