@@ -50,7 +50,6 @@ jobs:
 
       - name: Publish
         if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./pkg/package.json
+        run: pnpm release:npm
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
