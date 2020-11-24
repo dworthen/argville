@@ -1,5 +1,4 @@
 dependencies:
-  debug: 4.3.1
   yargs-parser: 20.2.4
 devDependencies:
   '@changesets/cli': 2.11.2
@@ -2225,6 +2224,7 @@ packages:
   /debug/4.3.1:
     dependencies:
       ms: 2.1.2
+    dev: true
     engines:
       node: '>=6.0'
     peerDependencies:
@@ -3980,6 +3980,7 @@ packages:
     resolution:
       integrity: sha512-NKmAlESf6jMGym1++R0Ra7wvhV+wFW63FaSOFPwRahvea0gMUcGUhVeAg/0BC0wiv9ih5NYPB1Wn1UEI1/L+xQ==
   /ms/2.1.2:
+    dev: true
     resolution:
       integrity: sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==
   /mute-stream/0.0.7:
@@ -6034,7 +6035,6 @@ specifiers:
   '@types/node': ^14.14.9
   '@types/tap': ^14.10.1
   '@types/yargs-parser': ^15.0.0
-  debug: ^4.3.1
   prettier: ^2.2.0
   shx: ^0.3.3
   tap: ^14.11.0
